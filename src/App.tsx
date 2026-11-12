@@ -133,16 +133,16 @@ export default function App() {
       <footer className="mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-slate-200 pt-4 text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400">
         <p className="flex items-center gap-2">
           <span>
-            Creado por{' '}
+            De:{' '}
             <a
               href="https://github.com/monohibrido"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-sky-700 underline underline-offset-2 hover:text-sky-900 dark:text-sky-400 dark:hover:text-sky-300"
+              className="rounded bg-slate-900 px-1.5 py-0.5 font-semibold text-[#39ff14] [text-shadow:0_0_8px_rgba(57,255,20,0.7)] hover:brightness-125"
             >
-              monohibrido
-            </a>{' '}
-            para mi{' '}
+              Tasty
+            </a>
+            , Para: mi{' '}
             <span className="font-semibold text-[#e0218a] dark:text-[#ff6ec7]">Fotonina</span>
           </span>
           <LuzCalida />
