@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+  --animate-resplandor: resplandor 3.2s ease-in-out infinite;
+  --animate-destello: destello 2.4s ease-in-out infinite;
+
+  @keyframes resplandor {
+    0%, 100% { opacity: 0.55; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.2); }
+  }
+
+  @keyframes destello {
+    0%, 100% { opacity: 0.15; transform: scale(0.6); }
+    50% { opacity: 1; transform: scale(1); }
+  }
+}
+
 html {
   color-scheme: light dark;
 }
